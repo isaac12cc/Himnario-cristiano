@@ -47,7 +47,7 @@ class _DetalleHimnoState extends State<DetalleHimno> {
   // FUNCIÓN PARA GENERAR TEXTO (MODIFICADA)
   String generarTexto() {
     final etiqueta = _getEtiquetaTipo();
-    return "📖 $etiqueta ${widget.himno.numero}: ${widget.himno.titulo}\n\n${widget.himno.contenido}\n\n🙏 Compartido desde Himnario ICI";
+    return "📖 $etiqueta ${widget.himno.numero}: ${widget.himno.titulo}\n\n${widget.himno.contenido}\n\n🙏 Compartido desde Himnario Cristiano";
   }
 
   void toggleFavorito() async {
